@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Grenze Gotisch;
+}
+
+body {
+  height: 100vh;
+}
+
+/* grenze-gotisch-200 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Grenze Gotisch';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./assets/fonts/grenze-gotisch-v18-latin-200.woff2') format('woff2');
+  }
+  /* grenze-gotisch-regular - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Grenze Gotisch';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/grenze-gotisch-v18-latin-regular.woff2') format('woff2');
+  }
+  /* grenze-gotisch-600 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Grenze Gotisch';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./assets/fonts/grenze-gotisch-v18-latin-600.woff2') format('woff2'); 
+  }
+  /* grenze-gotisch-800 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Grenze Gotisch';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./assets/fonts/grenze-gotisch-v18-latin-800.woff2') format('woff2'); 
+  }
