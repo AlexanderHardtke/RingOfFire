@@ -40,3 +40,5 @@ body {
     font-weight: 800;
     src: url('./assets/fonts/grenze-gotisch-v18-latin-800.woff2') format('woff2'); 
   }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
