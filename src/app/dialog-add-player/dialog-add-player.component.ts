@@ -3,10 +3,10 @@ import { Component, inject } from '@angular/core';
 import { PlayerComponent } from "../player/player.component";
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-import { MatDialogModule } from '@angular/material/dialog';
+import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
 import { MatDialog } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -19,7 +19,12 @@ import { FormsModule } from '@angular/forms';
 export class DialogAddPlayerComponent {
   readonly dialog = inject(MatDialog);
   name: string = '';
+  
 
-  onNoClick() {}
+  constructor(private dialogRef: MatDialogRef<DialogAddPlayerComponent>) { }
+
+  onNoClick() {
+    this.dialogRef.close();
+  }
 
 }
