@@ -14,7 +14,7 @@ body {
     font-family: 'Grenze Gotisch';
     font-style: normal;
     font-weight: 200;
-    src: url('./assets/fonts/grenze-gotisch-v18-latin-200.woff2') format('woff2');
+    src: url('/angular-projects/ring-of-fire/assets/fonts/grenze-gotisch-v18-latin-200.woff2') format('woff2');
   }
   /* grenze-gotisch-regular - latin */
   @font-face {
@@ -22,7 +22,7 @@ body {
     font-family: 'Grenze Gotisch';
     font-style: normal;
     font-weight: 400;
-    src: url('./assets/fonts/grenze-gotisch-v18-latin-regular.woff2') format('woff2');
+    src: url('/angular-projects/ring-of-fire/assets/fonts/grenze-gotisch-v18-latin-regular.woff2') format('woff2');
   }
   /* grenze-gotisch-600 - latin */
   @font-face {
@@ -30,7 +30,7 @@ body {
     font-family: 'Grenze Gotisch';
     font-style: normal;
     font-weight: 600;
-    src: url('./assets/fonts/grenze-gotisch-v18-latin-600.woff2') format('woff2'); 
+    src: url('/angular-projects/ring-of-fire/assets/fonts/grenze-gotisch-v18-latin-600.woff2') format('woff2'); 
   }
   /* grenze-gotisch-800 - latin */
   @font-face {
@@ -38,7 +38,7 @@ body {
     font-family: 'Grenze Gotisch';
     font-style: normal;
     font-weight: 800;
-    src: url('./assets/fonts/grenze-gotisch-v18-latin-800.woff2') format('woff2'); 
+    src: url('/angular-projects/ring-of-fire/assets/fonts/grenze-gotisch-v18-latin-800.woff2') format('woff2'); 
   }
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
