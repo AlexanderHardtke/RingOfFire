@@ -6,17 +6,17 @@
     <div class="card-stack">
         <!-- card stack -->
         <img [ngStyle]="{'right.px': i * 4}" *ngFor="let card of [0,1,2,3];
-     let i = index;" src="../../assets/img/cards/card_cover.png">
-        <img (click)="takeCard()" class="top-card" style="right: 16px" src="../../assets/img/cards/card_cover.png">
+     let i = index;" src="/angular-projects/ring-of-fire/assets/img/cards/card_cover.png">
+        <img (click)="takeCard()" class="top-card" style="right: 16px" src="/angular-projects/ring-of-fire/assets/img/cards/card_cover.png">
 
 
         <!-- stack for played cards -->
         <img [ngStyle]="{'right.px': i * 4}" *ngFor="let card of game.playedCards;
-     let i = index;" src="../../assets/img/cards/{{ card }}.png" class="played-card">
+     let i = index;" src="/angular-projects/ring-of-fire/assets/img/cards/{{ card }}.png" class="played-card">
 
         <!-- current Card Animation -->
         <img (click)="takeCard()" class="pick-card" style="right: 16px" *ngIf="pickCardAnimation"
-            src="../../assets/img/cards/{{ currentCard }}.png">
+            src="/angular-projects/ring-of-fire/assets/img/cards/{{ currentCard }}.png">
     </div>
 
 </div>
